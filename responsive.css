@@ -1,0 +1,134 @@
+@media screen and (max-width:770px){
+    .navbar{
+        width: 90%;
+    }
+    .logo h2 a{
+    font-size: 20px;
+    }
+    #menu_bar{
+        display: grid;
+        color: #ffff;
+        position: absolute;
+        right: 5%;
+        top: 20%;
+        border: 1px solid #ffff;
+        width: 30px;
+        height: 30px;
+        justify-content: center;
+        align-items: center;border-radius: 2px;
+        cursor: pointer;
+    }
+   .head{
+    padding-top: 0;
+   }
+    .nav_links{
+        flex-direction: column;
+        position: absolute;
+        background: #242920;
+        width: 100%;
+        left: 0; 
+        padding: 0;
+    }
+
+    .nav_links li a{
+    border-bottom: 1px solid #ffff;
+    display: flex;
+    border-radius: 0;
+    padding: 10px 0;
+    margin: 0 20px;
+}
+    .nav_links li:last-child a{
+    border-bottom: none;
+}
+    .inner_anasayfa{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .child_anasayfa{
+        flex-basis: 100%;
+    }
+    .child_anasayfa:last-child{
+        margin-bottom: 20px;
+    }
+    .child_anasayfa h1{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .child_anasayfa p{
+        font-size: 20px;
+    }
+    .child_anasayfa img{
+        margin-top: 200px;
+    }
+    .innersoftware{
+        display: block;
+    align-items: center;
+    }
+    
+    .innersoftware_child{
+        margin-bottom: 30px;
+       
+    }
+    .child_courses{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .child_courses img{
+        max-width: 100%;
+    }
+    .child_achivment {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .child_achivment img{
+        max-width: 100%;
+        height: auto;
+       display: block; 
+        margin: 0 auto;
+    }
+
+    .single_detail {
+        flex-basis: 100%; 
+        max-width: 100%;
+       
+    }
+    .child_achivment2{
+        display: block; 
+        margin: 0 auto;
+        max-width: 100%;
+             
+    }
+    .child_achivment2 .sd_3{
+        margin-bottom: 20px;
+        
+    }
+    .inner_aboutme{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        flex-basis: 100%;
+        margin-bottom: 40px;
+    }
+   .child_contact{
+    flex-basis: 100%;
+    margin-bottom: 30px;
+   }
+   .child_contact img{
+    max-width: 100%;
+    height: auto;
+   }
+   .child_footer {
+    flex-basis: 100%;
+    margin-bottom: 40px;
+   }
+   .child_footer p{
+    display: flex;
+    justify-content: first baseline;
+   }
+   .child_footer h3{
+   padding-top: 30px;
+   }
+   .inner_footer{
+    display: block;
+   }
+}
